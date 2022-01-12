@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: auto !important;
+}
+
 body {
     color: #373A3C;
     font-family: Helvetica, sans-serif;
@@ -80,4 +84,52 @@ body {
 #Experiencia div:last-child article h4:last-child {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
+
+/* Mis últimos trabajos */
+
+#Trabajos {
+    background-color: #660066;
+    font-family: 'Oswald', sans-serif;
+}
+
+#Trabajos h1 {
+    font-size: 52px;
+}
+
+#Trabajos h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#Trabajos p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Contacto*/
+
+#Contacto h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 52px;
+}
+
+#Contacto div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Footer */
+
+#Footer {
+    background-color: #660066;
+}
+
+#Footer h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#Footer a {
+    color: #FFFFFF;
+    text-decoration: none;
 }

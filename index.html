@@ -44,16 +44,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre mí</a>
+                        <a class="nav-link" href="#Sobre-Mi">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link" href="#Experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#Trabajos">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#Contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -94,12 +94,14 @@
             <hr class="opacity-100 mx-auto w-25">
             <div class="row pt-3">
                 <article class="col-12 col-md-6">
-                    <i class="fab fa-empire fa-10x"></i>
+                    <i class="fab fa-empire fa-10x" data-bs-toggle="tooltip" data-bs-placement="left"
+                        title="Stormtrooper"></i>
                     <h4 class="fw-bold mt-3" style="font-family: 'Oswald', sans-serif;">Stormtrooper</h4>
                     <h4>1980 - 2014</h4>
                 </article>
                 <article class="col-12 col-md-6">
-                    <i class="fab fa-medium-m fa-10x"></i>
+                    <i class="fab fa-medium-m fa-10x" data-bs-toggle="tooltip" data-bs-placement="right"
+                        title="Rails"></i>
                     <h4 class="fw-bold mt-3" style="font-family: 'Oswald', sans-serif;">Desarrolladora Rails</h4>
                     <h4>2014 - 2018</h4>
                 </article>
@@ -107,6 +109,145 @@
         </div>
     </section>
 
+    <section id="Trabajos" class="py-5">
+        <div>
+            <h1 class="fw-bold text-center text-uppercase mt-2 text-white">Mis últimos trabajos</h1>
+            <hr class="bg-white opacity-100 mx-auto w-25">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="./assets/img/meet_coffee.png" alt="Meet&Coffe" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Meet&Coffe
+                            </h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card border-0">
+                        <img src="./assets/img/iguana_page.png" alt="Iguana Page" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Iguana Page
+                            </h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card border-0">
+                        <img src="./assets/img/suricata.png" alt="suricata" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Suricata
+                            </h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card border-0">
+                        <img src="./assets/img/cuppon.png" alt="Cuppon" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Cuppon
+                            </h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card border-0">
+                        <img src="./assets/img/ricomida.png" alt="Ricomada" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Ricomida
+                            </h4>
+                            <p class="card-text fw-light">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 my-3">
+                    <div class="card border-0">
+                        <img src="./assets/img/dmark.png" alt="DMark" class="card-img-top">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                DMark
+                            </h4>
+                            <p class="card-text fw-light">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contacto" class="container text-center py-5">
+        <h1 class="mb-5 fw-bold text-uppercase">
+            Contacto
+        </h1>
+        <hr class="opacity-100 mx-auto" style="width: 25%;">
+        <div>
+            <p>
+                ¿Quiéres conocer más de mí?
+            </p>
+            <a href="https://ixsb38sy4go.typeform.com/to/HSiqzYG5" target="-blank">
+                <button class="btn bg-secondary text-white">
+                    Comenzar
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <footer class="text-center text-white py-5" id="Footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 my-2">
+                    <h1 class="fw-bold text-uppercase">Magdalena</h1>
+                </div>
+                <div class="col-12 col-md-6 my-2">
+                    <a href="">
+                        <i class="fab fa-github-square fa-3x mx-2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-linkedin fa-3x mx-2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter-square fa-3x mx-2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-facebook-square fa-3x mx-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                Desafío Latam
+            </div>
+        </div>
+    </div>
+    
     <!--Link para habilitar el script JS de JQuery 3.6.0, completo y minificado-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
